@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:300,regular,600);
+
+/* Main styles */
+.container {
+    width: 100%;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    color: (0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+}
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    color: hsl(215, 51%, 70%);
+    padding: 15px;
+    align-self: center;
+    justify-self: center;
+}
+.card-title {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.card-body {
+    padding: 1rem 0.25rem;
+}
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.card-flex-content {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    justify-items: center;
+}
+
+/* Mobile styles */
+@media (max-width: 400px) {
+   .card {
+       width: 90vw;
+   } 
+}
+
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

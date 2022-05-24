@@ -1,0 +1,14 @@
+
+
+
+
+.card-img-top {
+    padding: 15px;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+}
+.card-text {
+    font-size: 18px;
+    font-weight: 400;
+}
