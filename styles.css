@@ -2,7 +2,6 @@
 
 /* Main styles */
 .container {
-    width: 100%;
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
     color: (0, 0%, 100%);
@@ -57,13 +56,47 @@ span {
     font-weight: bold;
 }
 
-.card-img-top:hover {
+/* .card-img-top:hover {
     cursor: pointer;
-}
+} */
 
 .active-state:hover {
     cursor: pointer;
     color: hsl(178, 100%, 50%);
+}
+
+/* SVG Overlay */
+.img-overlay-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+/* .svg-container,
+.svg-container svg {
+    display: none;
+} */
+.img-overlay-wrap:hover {
+    cursor: pointer;
+}
+.svg-container {
+    display: none;
+}
+.svg-container:hover {
+    display: clock;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(178, 100%, 50%, 0.3);
+}
+
+.svg-container:hover svg {
+    display: block;
+    margin: 0 auto;
+
 }
 
 /* Mobile styles */
