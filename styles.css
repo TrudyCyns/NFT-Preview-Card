@@ -38,6 +38,7 @@ hr {
     padding-top: 0;
     padding-bottom: 0;
 }
+
 .prof-img {
     border: 1px white solid;
     border-radius: 50%;
@@ -69,6 +70,7 @@ span {
     position: relative;
     display: inline-block;
 }
+
 .img-overlay-wrap img {
     display: block;
     max-width: 100%;
@@ -89,28 +91,9 @@ span {
     width: 100%;
     align-items: center;
 }
+
 .img-overlay-wrap:hover {
     cursor: pointer;
-}
-.svg-container {
-    display: none;
-}
-.svg-container:hover {
-    display: clock;
-    position: absolute;
-    top: 0;
-    left: 0;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    background-color: hsl(178, 100%, 50%, 0.3);
-}
-
-.svg-container:hover svg {
-    display: block;
-    margin: 0 auto;
-
 }
 
 /* Mobile styles */
