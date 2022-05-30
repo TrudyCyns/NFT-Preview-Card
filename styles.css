@@ -38,7 +38,6 @@ hr {
     padding-top: 0;
     padding-bottom: 0;
 }
-
 .prof-img {
     border: 1px white solid;
     border-radius: 50%;
@@ -70,11 +69,26 @@ span {
     position: relative;
     display: inline-block;
 }
+.img-overlay-wrap img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
-/* .svg-container,
-.svg-container svg {
+.img-overlay-wrap svg {
     display: none;
-} */
+}
+
+.img-overlay-wrap:hover svg {
+    display: block;
+    background-color: hsl(178, 100%, 50%, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
 .img-overlay-wrap:hover {
     cursor: pointer;
 }
